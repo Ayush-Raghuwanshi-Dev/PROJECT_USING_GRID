@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #d0d0d0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#left {
+  display: grid;
+  grid-template-rows: 30% 55% 15%;
+}
+
+#top {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#top-left {
+  padding: 30px;
+}
+
+#square {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  background-color: black;
+  transform: rotate(45deg); /* replaced rotate with transform for better support */
+}
+
+#top-right {
+  padding: 25px;
+  text-align: right;
+}
+
+#icon {
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#items {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+#left-centre {
+  padding: 10px 10px 10px 90px;
+}
+
+#left-centre h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  color: #333;
+}
+
+#left-centre h1:nth-child(2n) {
+  text-align: center;
+}
+
+#left-down {
+  padding: 25px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#right {
+  background-color: #333;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  padding-right: 50px;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+#arrow{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  top: 50%;
+  left: 48%;
+}
+@media (max-width: 600px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #left {
+    order: 1;
+    height: 50vh; 
+    padding: 20px;
+    overflow-y: auto; 
+  }
+
+  #right {
+    order: 2;
+    height: 50vh; 
+    padding: 20px;
+  }
+
+  #top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  #left-centre {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #left-centre h1 {
+    font-size: 2.0rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 90px;
+  }
+  #left-centre h1:nth-child(2n) {
+    text-align: center;
+  }
+
+  #left-down {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  #arrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg); /* Centers perfectly and rotates */
+    z-index: 10; /* Ensures arrow stays on top */
+  }
+  #video {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+  }
+
+    #items{
+    display: none;
+  }
+}
