@@ -40,9 +40,15 @@ PROJECT_USING_GRID/
 - Responsive Design
 
 ---
+## 📸 Website Preview
+
+![Website Preview](../Assets/Preview.png)
 
 ## 🙋‍♂ Author
 
 - GitHub: [@Ayush-Raghuwanshi-Dev](https://github.com/Ayush-Raghuwanshi-Dev)
 
 ---
+## 📩 Feedback
+
+If you find any bugs or have suggestions, feel free to open an issue or connect with me!
