@@ -47,7 +47,7 @@ PROJECT_USING_GRID/
 ---
 ## 📸 Website Preview
 
-![Website Preview](../Assets/Preview.png)
+![Website Preview](./Assets/Preview.png)
 
 ## 🙋‍♂ Author
 
