@@ -4,23 +4,6 @@ This is a responsive fashion-themed web design built using *HTML* and *CSS Grid*
 
 ---
 
-## 📁 Folder Structure
-
-PROJECT_USING_GRID/
-│
-├── Assets/
-│   └── Video File
-│
-├── CSS/
-│   └── Style.css
-│
-├── HTML/
-│   └── index.html
-│
-└── README.md
-
----
-
 ## 🛠 Features
 
 - 🎥 Video background
