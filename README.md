@@ -13,8 +13,6 @@ This is a responsive fashion-themed web design built using *HTML* and *CSS Grid*
 - 💻 Clean, semantic HTML
 
 ---
-https://ayush-raghuwanshi-dev.github.io/PROJECT_USING_GRID/
-
 ## 💡 Skills Used
 
 - HTML5
